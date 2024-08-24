@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Universe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+    <header class="hide">
+        <nav>
+            <img src="img/logo.png" alt="travelo" class="logo">
+            <ul>
+                <li>
+                    <a href="#">Login</a>
+                </li>
+                <li>
+                    <a href="#">Signup</a>
+                </li>
+                <li class="search">
+                    <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </li>
+                <li class="hamburger">
+                    <a href="#">
+                        <div class="bar"></div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- <div class="vignette hide"></div> -->
+        <img src="img/bg05.jpg" data-speedx="0.3" data-speedy="0.3" data-speedz="0.2" data-rotation="0"
+            data-distance="-200" class="parallax bg-img">
+
+        <img src="img/spaceship01.png" data-speedx="0.27" data-speedy="0.045" data-speedz="0.13" data-rotation="0"
+            data-distance="850" class="parallax  spaceship-1">
+
+        <img src="img/planet01.png" data-speedx="0.195" data-speedy="0.034" data-speedz="0.16" data-rotation="0"
+            data-distance="1200" class="parallax  planet-1">
+
+        <img src="img/sun01-removebg-preview.png" data-speedx="0.025" data-speedy="0.03" data-speedz="0.03"
+            data-rotation="0" data-distance="1400" class="parallax sun-1">
+
+        <img src="img/planet02.png" data-distance="1600" data-speedx="0.125" data-speedy="0.03" data-speedz="0.123"
+            data-rotation="0" class="parallax planet-2 ">
+
+        <img src="img/planet03.png" data-distance="1800" data-speedx="0.01" data-speedy="0.123" data-speedz="0.7"
+            data-rotation="0" class="parallax mountain-8 planet-3">
+
+        <img src="img/spaceship03.png" data-speedx="0.016" data-distance="2000" data-speedy="0.0456" data-speedz="0.066"
+            data-rotation="0" class="parallax spaceship-3">
+
+        <img src="img/planet04.png" data-speedx="0.01" data-distance="2220" data-speedy="0.015" data-speedz="0.18"
+            data-rotation="0" class="parallax planet-4">
+
+        <div class="text parallax" data-speedx="0.07" data-distance="0" data-speedy="0.198" data-speedz="0.6"
+            data-rotation="0">
+            <h2>Explore</h2>
+            <h1>Universe</h1>
+        </div>
+
+        <img src="img/planet14.png" data-speedx="0.065" data-distance="2600" data-speedy="0.03" data-speedz="0.9"
+            data-rotation="0.1" class="parallax mountain-6 planet-14">
+
+        <img src="img/spaceship04.png" data-speedx="0.035" data-speedy="0.3" data-distance="2800" data-speedz="0.31"
+            data-rotation="0.0022" class="parallax spaceship-4">
+
+        <img src="img/planet13.png" data-speedx="0.08" data-speedy="0.03" data-distance="7000" data-speedz="0.07"
+            data-rotation="0.2" class="parallax planet-13 ">
+
+        <img src="img/asteroid02.png" data-speedx="0.11" data-speedy="0.03" data-distance="3200" data-speedz="0.0333"
+            data-rotation="0.0233" class="parallax asteroid-2">
+
+        <img src="img/planet69.png" data-speedx="0.059" data-speedy="0.03" data-distance="7400" data-speedz="0.1"
+            data-rotation="0.3" class="parallax planet-69">
+
+        <img src="img/earth007.png" data-speedx="0.04" data-speedy="0.03" data-distance="7600" data-speedz="0.123"
+            data-rotation="0.04" class="parallax earth-7">
+
+        <img src="img/fog_2.png" data-speedx="0.0235" data-speedy="0.03" data-distance="3800" data-speedz="0.32"
+            data-rotation="0.0344" class="parallax fog-2">
+
+        <img src="img/planet15.png" data-speedx="0.027" data-speedy="0.03" data-distance="7000" data-speedz="0.5"
+            data-rotation="0.123" class="parallax planet-15">
+
+        <img src="img/planet33.png" data-speedx="0.03" data-speedy="0.03" data-speedz="0.9" data-distance="7200"
+            data-rotation="0.23" class="parallax planet-33">
+
+        <img src="img/sun_rays.png" alt="sunrasys" class="sun-rays hide">
+
+        <img src="img/black_shadow.png" alt="black shadow" class="black-shadow hide">
+
+        <img src="img/asteroid01.png" data-speedx="0.012" data-speedy="0.03" data-speedz="0.003333" data-distance="4400"
+            data-rotation="0" class="parallax asteroid-1">
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+            integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/app.js"></script>
+    </main>
+</body>
+
+</html>
